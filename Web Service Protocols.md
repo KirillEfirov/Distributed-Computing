@@ -2,8 +2,12 @@
 
 На сегодняшний день наибольшее распространение получили следующие протоколы реализации веб-сервисов:
 
-[SOAP (Simple Object Access Protocol)](./SOAP.md) — по сути это тройка стандартов SOAP/WSDL/UDDI
-[REST (Representational State Transfer)](./REST.md)
-XML-RPC (XML Remote Procedure Call)
+[SOAP (Simple Object Access Protocol)](./SOAP.md) — по сути это тройка стандартов SOAP/WSDL/UDDI;
+[REST (Representational State Transfer)](./REST.md) — архитектурный стиль взаимодействия компьютерных систем в сети основанный на методах протокола HTTP;
+UDDI - устарел;
+XML-RPC (XML Remote Procedure Call) - устарел;
+JSON-RPC (JSON Remote Procedure Call) - более современный аналог XML-RPC. Основное отличие - данные передаются в формате JSON;
+Специализированные протоколы для конкретного вида задач, такие как GraphQL;
+Менее распространенный, но более эффективный gRPC, передающий данные в бинарном виде и использующий HTTP/2 в качестве транспорта.
 
 На самом деле, SOAP произошел от XML-RPC и является следующей ступенью его развития. В то время как REST — это концепция, в основе которой лежит скорее архитектурный стиль, нежели новая технология, основанный на теории манипуляции объектами CRUD (Create Read Update Delete) в контексте концепций WWW.
